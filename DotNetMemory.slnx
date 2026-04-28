@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/02_DotNetMemory_CSharp/">
+    <Project Path="02_DotNetMemory_CSharp/DotNetMemory/DotNetMemory.csproj" />
+  </Folder>
+</Solution>
