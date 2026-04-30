@@ -7,7 +7,6 @@ namespace DotNetMemory.Section3_GCRoots;
 // A simple class to represent an object on the Managed Heap
 public class DummyNode
 {
-    // Added '?' to resolve compiler warning CS8618 (Nullable Reference Types).
     public string? NodeName;
 
     // We add a Finalizer (Destructor) ONLY for the live demo.
