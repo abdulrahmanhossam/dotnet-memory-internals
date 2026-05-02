@@ -11,21 +11,21 @@ class Program
     {
         #region Section 2: Stack vs Heap & Memory Layout
 
-        Console.WriteLine("=== Section 2: Stack vs Heap & Copy Behaviors ===\n");
+        // Console.WriteLine("=== Section 2: Stack vs Heap & Copy Behaviors ===\n");
 
         // ==========================================
         // 1. Copy by Value (Stack Operations)
         // ==========================================
         // 'x' is allocated on the Thread's local Stack. Allocation is O(1) fast.
-        int x = 5;
+        // int x = 5;
 
-        // The system creates a completely NEW space on the Stack and copies the actual value '5'.
-        int y = x;
+        // // The system creates a completely NEW space on the Stack and copies the actual value '5'.
+        // int y = x;
 
-        // Modifying 'y' has absolutely NO effect on 'x'. They are isolated.
-        y = 10;
+        // // Modifying 'y' has absolutely NO effect on 'x'. They are isolated.
+        // y = 10;
 
-        Console.WriteLine($"[Copy by Value] x: {x}, y: {y}");
+        // Console.WriteLine($"[Copy by Value] x: {x}, y: {y}");
 
 
         // ==========================================
@@ -61,31 +61,31 @@ class Program
         #region Section 3: GC Roots & Reachability
 
         // Execute the GC Roots Demo
-        GcRootsDemo.RunDemo();
+        //GcRootsDemo.RunDemo();
 
         #endregion
 
         #region Section 4: Generational GC & LOH
 
-        GenerationsDemo.RunDemo();
+        //GenerationsDemo.RunDemo();
 
         #endregion
 
         #region Section 5: LOH & Memory Fragmentation
 
-        LohDemo.RunDemo();
+        // LohDemo.RunDemo();
 
         #endregion
 
         #region Section 6: Dispose vs Finalizer
 
-        DisposeDemo.RunDemo();
+        //DisposeDemo.RunDemo();
 
         #endregion
 
         #region Section 7: Logical Memory Leaks
 
-        MemoryLeaksDemo.RunDemo();
+        //MemoryLeaksDemo.RunDemo();
 
         #endregion
 
